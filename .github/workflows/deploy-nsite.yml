@@ -19,8 +19,5 @@ jobs:
         with:
           node-version: 18  # Set the Node.js version
 
-      - name: Install Dependencies
-        run: npm install  # If needed for dependencies
-
       - name: Run NPX Command
         run: npx -y nsite-cli upload www --verbose --purge --privatekey ${{ secrets.NSITE_KEY }}  
