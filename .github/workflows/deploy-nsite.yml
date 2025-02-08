@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18  # Set the Node.js version
+          node-version: 20  # Set the Node.js version
 
       - name: Run NPX Command
         run: npx -y nsite-cli upload www --verbose --purge --privatekey ${{ secrets.NSITE_KEY }}  
