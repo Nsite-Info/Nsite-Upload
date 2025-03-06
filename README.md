@@ -65,9 +65,16 @@ After deployment, the `npx` command will show the deployment details, including 
 
 - Any changes made to `index.html` will be deployed automatically when pushed.  
 
+### Setting your www folder as a github pages site 
+
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+
 ---
 
-### 1.5) FAQ & Debugging  
+### FAQ & Debugging  
 
 #### **Q: My Deployment Failed**  
 You might not have set any Blossom servers for your **BUD-03 List**.  
